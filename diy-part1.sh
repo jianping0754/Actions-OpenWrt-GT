@@ -11,14 +11,13 @@
 #
 
 # 去除源码注释
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 添加插件包
-echo 'src-git https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/281677160/openwrt-passwall.git' >>feeds.conf.default
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
-# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
