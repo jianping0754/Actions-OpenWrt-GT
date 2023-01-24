@@ -21,3 +21,4 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-th
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
