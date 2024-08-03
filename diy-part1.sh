@@ -21,7 +21,6 @@ git clone https://github.com/jianping0754/luci-theme-argon.git package/lean/luci
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/jianping0754/luci-theme-rosy.git package/lean/luci-theme-rosy
 # git clone https://github.com/jianping0754/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
-# git clone https://github.com/jianping0754/OpenWrt-Theme/luci-theme-infinityfreedom.git package/theme
 
 # 移除 openwrt feeds 自带的核心包
 # rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
