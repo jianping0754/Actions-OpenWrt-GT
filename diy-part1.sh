@@ -18,9 +18,8 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 git clone https://github.com/jianping0754/luci-app-poweroff.git package/lean/luci-app-poweroff
 git clone https://github.com/jianping0754/luci-theme-argon.git package/lean/luci-theme-argon
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
+git clone https://github.com/jianping0754/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 git clone https://github.com/jianping0754/luci-theme-rosy.git package/lean/luci-theme-rosy
-# git clone https://github.com/jianping0754/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 
 # 移除 openwrt feeds 自带的核心包
 # rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
