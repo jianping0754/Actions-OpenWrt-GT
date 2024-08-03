@@ -19,7 +19,7 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 git clone https://github.com/jianping0754/luci-app-poweroff.git package/lean/luci-app-poweroff
 git clone https://github.com/jianping0754/luci-theme-argon.git package/lean/luci-theme-argon
 git clone https://github.com/jianping0754/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom-ng
+# git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom-ng
 git clone https://github.com/jianping0754/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 # 移除 openwrt feeds 自带的核心包
