@@ -18,7 +18,7 @@ sed -i "/uci commit network/i\uci set network.lan.ipaddr='192.168.31.3'" $ZZZ   
 sed -i "/uci commit network/i\uci set network.lan.netmask='255.255.255.0'" $ZZZ                                   # IPv4 子网掩码
 sed -i "/uci commit network/i\uci set network.lan.gateway='192.168.31.1'" $ZZZ                                    # IPv4 网关
 sed -i "/uci commit network/i\uci set network.lan.broadcast='192.168.31.255'" $ZZZ                                # IPv4 广播
-sed -i "/uci commit network/i\uci set network.lan.dns='192.168.31.201 202.96.128.86'" $ZZZ                        # DNS(多个DNS要用空格分开)
+sed -i "/uci commit network/i\uci set network.lan.dns='192.168.31.201 202.96.128.86 202.96.128.166'" $ZZZ         # DNS(多个DNS要用空格分开)
 sed -i "/uci commit network/i\uci set network.lan.delegate='0'" $ZZZ                                              # 去掉LAN口使用内置的 IPv6 管理
 echo "close_dhcp" > package/base-files/files/etc/closedhcp                                                        # 关闭DHCP服务
 
